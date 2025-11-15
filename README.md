@@ -1,13 +1,12 @@
-The Social Kindness Habit Tracker is a simple habit tracking application built in Python. The program runs in the terminal and allows users to add habits, list existing habits, and mark habits as completed. All data is saved in a JSON file so habits and completion dates persist between sessions.
+The Social Kindness Habit Tracker is a simple habit tracking application built in Python. The program runs in the terminal and allows users to show habits, mark them as completed and view existing streaks. All data is saved in a JSON file so habits and completion dates persist between sessions.
 
 The app was created for a university portfolio project focusing on clean backend logic, object-oriented programming, and a functional command-line interface.
 
-The main features include:
-- Creating new habits with a name and periodicity
-- Displaying all habits in the program
-- Marking habits as completed
-- Automatic saving and loading of habit data
-- Storing all data in a habits.json file
+The main features are:
+- Showing all predefined habits with name and periodicity
+- Marking a habit as completed with date and time
+- Viewing the current streak for each habit
+- Saving all habit data and completion timestamps into a habits.json file to keep progress between sessions
 
 How to run the project:
 1. Make sure Python 3 is installed on the system.
@@ -17,10 +16,10 @@ How to run the project:
 
 The project consists of the following files:
 
-main.py – This file starts the program and handles the terminal interface.  
-habit.py – Contains the Habit class that represents a single habit.  
-habit_tracker.py – Contains the HabitTracker class that manages all habits together.  
-habits.json – A data file that stores all habits and their completion dates.
+main.py – runs the program and shows the menu in the terminal.  
+habit.py – defines the Habit class (one single habit with its data).  
+tracker.py – defines the HabitTracker class, which loads, saves, lists habits and tracks streaks.  
+habits.json – stores all habits and their completion dates.
 
 Example terminal output looks like this:
 
