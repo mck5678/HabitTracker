@@ -37,9 +37,4 @@ Technologies used:
 Python 3  
 JSON for data storage
 
-Future improvements:
-Adding validation to prevent invalid input  
-Adding statistics or streak tracking  
-Creating a graphical interface in the future
-
 This project is free to use, extend, or modify.
