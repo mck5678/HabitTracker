@@ -34,6 +34,7 @@ Habit Tracker
 The purpose of this project was to learn practical Python skills, work with JSON storage, and structure an application in a clear and maintainable way. The app is intentionally simple but can be extended with more features later, like an input validation, analytics, streak calculations, or a graphical interface.
 
 Technologies used:
+
 Python 3  
 JSON for data storage
 
